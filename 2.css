@@ -1,0 +1,32 @@
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown{
+    display: inline-block;
+  }
+.dropdown-content{
+  display:none;
+}
+.dropdown-content a{
+  display: block;
+  text-decoration: none;
+  background-color: #f1f1f1;
+  color:black;
+}
+.dropdown-content a:hover{
+  background-color: #ddd;
+}
+.dropbtn:hover , .dropbtn.focus{
+  background-color: #2980B9;
+}
+.show + div {
+  display: block;
+}
+.test{
+  background-color: red;
+}
